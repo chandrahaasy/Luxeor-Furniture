@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furniture E-commerce</title>
+  <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body class="bg-gradient-to-br from-[#4B0000] via-[#6B2A1B] to-[#4B0000] font-sans text-gray-100">
+
+  <!-- Header and Navigation -->
+  <header class="bg-[#2E1A0F] shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-xl font-bold text-white">Luxeor Furniture</div>
+      <nav class="space-x-4">
+        <a href="#" class="hover:text-yellow-300 text-white">Home</a>
+        <a href="#shop" class="hover:text-yellow-300 text-white">Shop</a>
+        <a href="#about" class="hover:text-yellow-300 text-white">About</a>
+        <a href="#contact" class="hover:text-yellow-300 text-white">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="bg-[#3B0B0B] py-16 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">Premium Furniture for Your Home</h1>
+    <p class="text-lg mb-6 text-gray-200">Discover our exclusive collection of modern furniture.</p>
+    <a href="#shop" class="bg-yellow-500 text-white px-6 py-3 rounded hover:bg-yellow-600">Shop Now</a>
+  </section>
+
+  <!-- Promotional Cards -->
+  <section class="max-w-7xl mx-auto px-4 py-8 grid md:grid-cols-3 gap-6">
+    <!-- Card 1 -->
+    <div class="bg-[#2E1A0F] rounded-lg shadow p-6 hover:shadow-lg transition">
+      <img src="assets/modrensofa.jpg" alt="Living Room" class="w-full h-48 object-cover rounded mb-4"/>
+      <h2 class="text-xl font-semibold mb-2 text-white">Modern Sofas</h2>
+      <p class="text-gray-300 mb-4">Comfortable and stylish sofas to elevate your living room.</p>
+      <a href="#" class="text-yellow-300 hover:underline">Explore</a>
+    </div>
+    <!-- Card 2 -->
+    <div class="bg-[#2E1A0F] rounded-lg shadow p-6 hover:shadow-lg transition">
+      <img src="assets/diningset.webp" alt="Dining Table" class="w-full h-48 object-cover rounded mb-4"/>
+      <h2 class="text-xl font-semibold mb-2 text-white">Elegant Dining Sets</h2>
+      <p class="text-gray-300 mb-4">Perfect dining tables to host memorable family dinners.</p>
+      <a href="#" class="text-yellow-300 hover:underline">Explore</a>
+    </div>
+    <!-- Card 3 -->
+    <div class="bg-[#2E1A0F] rounded-lg shadow p-6 hover:shadow-lg transition">
+      <img src="assets/bedroom.jpeg" alt="Bedroom" class="w-full h-48 object-cover rounded mb-4"/>
+      <h2 class="text-xl font-semibold mb-2 text-white">Cozy Bedrooms</h2>
+      <p class="text-gray-300 mb-4">Comfortable beds and bedroom furniture for restful nights.</p>
+      <a href="#" class="text-yellow-300 hover:underline">Explore</a>
+    </div>
+  </section>
+
+  <!-- About -->
+<section id="about" class="py-12 bg-[#3B0B0B]">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold text-white mb-4">About Luxeor Furniture</h2>
+    <p class="text-gray-300 text-lg leading-8">
+      Luxeor Furniture brings together luxury, comfort, and timeless craftsmanship.
+      Every piece is thoughtfully designed using premium materials to create elegant
+      living spaces that reflect modern lifestyles.
+    </p>
+  </div>
+</section>
+
+  <!-- Feature Highlights -->
+  <section id="features" class="bg-[#2E1A0F] py-12">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8 text-center">
+      <div>
+        <div class="text-4xl mb-4 text-white">🛋️</div>
+        <h3 class="text-xl font-semibold mb-2 text-white">Quality Materials</h3>
+        <p class="text-gray-300">We use only premium materials for durability and style.</p>
+      </div>
+      <div>
+        <div class="text-4xl mb-4 text-white">🚚</div>
+        <h3 class="text-xl font-semibold mb-2 text-white">Free Delivery</h3>
+        <p class="text-gray-300">Enjoy free delivery on all orders over 19,999₹.</p>
+      </div>
+      <div>
+        <div class="text-4xl mb-4 text-white">📞</div>
+        <h3 class="text-xl font-semibold mb-2 text-white">Customer Support</h3>
+        <p class="text-gray-300">Our team is here to help you 24/7.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop by Room -->
+  <section id="shop" class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-3xl font-bold mb-6 text-center text-white">Shop by Room</h2>
+    <div class="grid md:grid-cols-4 gap-4">
+      <div class="relative group cursor-pointer">
+        <img src="assets/livingroom.avif" alt="Living Room" class="w-full h-48 object-cover rounded"/>
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+          <span class="text-white text-xl font-semibold">Living Room</span>
+        </div>
+      </div>
+      <div class="relative group cursor-pointer">
+        <img src="assets/pdining.jpg" alt="Dining Room" class="w-full h-48 object-cover rounded"/>
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+          <span class="text-white text-xl font-semibold">Dining Room</span>
+        </div>
+      </div>
+      <div class="relative group cursor-pointer">
+        <img src="assets/pbedroom.webp" alt="Bedroom" class="w-full h-48 object-cover rounded"/>
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+          <span class="text-white text-xl font-semibold">Bedroom</span>
+        </div>
+      </div>
+      <div class="relative group cursor-pointer">
+        <img src="assets/office.jpg" alt="Office" class="w-full h-48 object-cover rounded"/>
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+          <span class="text-white text-xl font-semibold">Office</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Sellers Product Grid -->
+  <section id="bestsellers" class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-3xl font-bold mb-6 text-center text-white">Best Sellers</h2>
+    <div class="grid md:grid-cols-4 gap-6">
+      <!-- Product Card  -->
+      <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+        <img src="assets/bsesofa.webp" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded"/>
+        <h3 class="text-lg font-semibold mb-2 text-gray-800">Luxury Sofa</h3>
+        <p class="text-gray-600 mb-2">₹2,46,999</p>
+        <button class="w-full bg-yellow-500 text-gray-800 py-2 rounded hover:bg-yellow-600">Add to Cart</button>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+        <img src="assets/eledining.jpeg" alt="Product 2" class="w-full h-48 object-cover mb-4 rounded"/>
+        <h3 class="text-lg font-semibold mb-2 text-gray-800">Elegant Dining Set</h3>
+        <p class="text-gray-600 mb-2">₹1,49,676</p>
+        <button class="w-full bg-yellow-500 text-gray-800 py-2 rounded hover:bg-yellow-600">Add to Cart</button>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+        <img src="assets/prembed.jpeg" alt="Product 3" class="w-full h-48 object-cover mb-4 rounded"/>
+        <h3 class="text-lg font-semibold mb-2 text-gray-800">Premium Bed</h3>
+        <p class="text-gray-600 mb-2">₹98,999</p>
+        <button class="w-full bg-yellow-500 text-gray-800 py-2 rounded hover:bg-yellow-600">Add to Cart</button>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+        <img src="assets/tab.jpg" alt="Product 4" class="w-full h-48 object-cover mb-4 rounded"/>
+        <h3 class="text-lg font-semibold mb-2 text-gray-800">Premium Table</h3>
+        <p class="text-gray-600 mb-2">₹79,999</p>
+        <button class="w-full bg-yellow-500 text-gray-800 py-2 rounded hover:bg-yellow-600">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Editorial  -->
+  <section class="bg-[#2E1A0F] py-12">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4 text-white">Latest Editorials</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+          <img src="assets/edi.jpeg" alt="Editorial 1" class="w-full h-48 object-cover"/>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Decor Tips for Your Living Room</h3>
+            <p class="text-gray-600 mb-4">Learn how to design a Premium and modern living space.</p>
+            <a href="#" class="text-yellow-500 hover:underline">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spring Sale Banner -->
+  <section class="bg-red-700 text-white text-center py-8">
+    <h2 class="text-3xl font-bold mb-2">Summer Sale - Up to 37% Off!</h2>
+    <p class="mb-4">Limited time offer. Don't miss out!</p>
+    <a href="#shop" class="bg-white text-red-700 px-6 py-3 rounded font-semibold hover:bg-gray-100">Shop Now</a>
+  </section>
+
+  <!-- Shop the Look -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-3xl font-bold mb-6 text-center text-white">Shop the Look</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- Look 1 -->
+      <div class="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="assets/livingroom.avif" alt="Living Room Look" class="w-full h-64 object-cover"/>
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Modern Living Room</h3>
+          <a href="#" class="block bg-yellow-500 text-gray-800 text-center py-2 rounded hover:bg-yellow-600">Shop Look</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials & Brand Logos -->
+  <section class="bg-[#2E1A0F] py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-white">What Our Customers Say</h2>
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <!-- Testimonials -->
+        <div class="text-white text-sm">
+          <p class="mb-4">"Excellent quality and fantastic customer service!"</p>
+          <div class="flex items-center space-x-4">
+            <img src="assets/cust.jpg" alt="Customer" class="w-12 h-12 rounded-full"/>
+            <div>
+              <p class="font-semibold">Kumar</p>
+              <p class="text-white text-sm">Happy Customer</p>
+            </div>
+          </div>
+        </div>
+        <!-- Brand Logos -->
+        <div class="flex justify-around items-center space-x-4">
+          <img src="assets/brand1.jpg" alt="Brand 1" class="h-12"/>
+          <img src="assets/brand2.jpg" alt="Brand 2" class="h-12"/>
+          <img src="assets/brand3.png" alt="Brand 3" class="h-12"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+<section id="contact" class="py-12 bg-[#2E1A0F]">
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold text-white mb-6">Contact Us</h2>
+
+    <div class="space-y-3 text-gray-300">
+      <p>📍 Hyderabad, Telangana</p>
+      <p>📞 +91 7995333288</p>
+      <p>✉ support@luxeorfurniture.com</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Newsletter -->
+  <section class="bg-[#1A0F00] text-gray-200 py-6">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Subscribe to Our Newsletter</h2>
+      <form class="flex justify-center max-w-xl mx-auto"></form>
+      <input
+      type="email"
+      required
+      placeholder="Enter your email"
+      class="border border-gray-300 px-4 py-2 w-full rounded-l text-black">
+      <button
+      type="submit"
+      class="bg-yellow-500 text-gray-800 px-4 py-2 rounded-r hover:bg-yellow-600">
+      Subscribe
+      </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#1A0F00] text-gray-200 py-6">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2026 Luxeor Furniture. All rights reserved.</p>
+      <div class="space-x-4 mt-4 md:mt-0">
+        <a href="#" class="hover:text-white">Privacy Policy</a>
+        <a href="#" class="hover:text-white">Terms of Service</a>
+        <a href="#" class="hover:text-white">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
